@@ -1,9 +1,8 @@
+import Parent from "./props/Parent";
+import GuestList from "./state/GuestList";
+
 function App() {
-  return (
-    <div>
-      <h1>Welcome to typescript</h1>
-    </div>
-  );
+  return <GuestList />;
 }
 
 export default App;
